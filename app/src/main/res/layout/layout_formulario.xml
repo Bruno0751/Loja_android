@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android= "http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#32ccc7"
+    android:orientation="vertical"
+    tools:context=".Formulario">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view_bem_vindo"
+        android:textColor="@color/red"
+        android:textSize="20dp" />
+
+    <CheckBox
+        android:id="@+id/botas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bota (120:00 R$)" />
+
+    <CheckBox
+        android:id="@+id/saia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camiseta (55;00 R$)" />
+
+    <CheckBox
+        android:id="@+id/jaquetas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jaqueta (110:00 R$)" />
+
+    <CheckBox
+        android:id="@+id/calças"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calça (90;00 R$)" />
+
+    <CheckBox
+        android:id="@+id/camisetas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shirt (60;00 R$)" />
+
+    <CheckBox
+        android:id="@+id/vestidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vestido (100;00 R$)" />
+
+    <ToggleButton
+        android:id="@+id/desconto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOff="@string/tog_button_desconto"
+        android:textOn="10% OFF" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/somar"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="@string/button_adicionar" />
+
+        <Button
+            android:id="@+id/sair"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="@string/button_voltar" />
+    </LinearLayout>
+</LinearLayout>

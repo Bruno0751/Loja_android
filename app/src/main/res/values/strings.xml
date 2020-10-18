@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Loja</string>
+    <string name="text_view_bem_vindo">Bem Vindo</string>
+    <string name="button_voltar">Voltar</string>
+    <string name="button_loja">Loja</string>
+    <string name="button_ok">Ok</string>
+    <string name="button_adicionar">Adicionar</string>
+    <string name="tog_button_desconto">desconto -10%</string>
+
+</resources>
